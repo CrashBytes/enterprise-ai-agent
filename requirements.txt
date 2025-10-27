@@ -1,0 +1,40 @@
+# Core AI Framework
+langchain==0.1.4
+langchain-openai==0.0.5
+langchain-community==0.0.16
+
+# LLM Providers
+openai==1.10.0
+
+# Tool Dependencies
+requests==2.31.0
+beautifulsoup4==4.12.3
+pandas==2.2.0
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9
+
+# Vector Store and Embeddings
+chromadb==0.4.22
+sentence-transformers==2.3.1
+
+# Utilities
+python-dotenv==1.0.0
+pydantic==2.5.3
+pyyaml==6.0.1
+tenacity==8.2.3
+
+# Monitoring and Logging
+loguru==0.7.2
+prometheus-client==0.19.0
+
+# CLI Interface
+typer==0.9.0
+rich==13.7.0
+
+# Development Tools
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+black==24.1.1
+mypy==1.8.0
+flake8==7.0.0
