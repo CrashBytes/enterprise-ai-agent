@@ -1,7 +1,7 @@
 # Core AI Framework
 langchain==0.1.4
 langchain-openai==0.0.5
-langchain-community==0.0.16
+langchain-community==0.4.1
 
 # LLM Providers
 openai==1.10.0
