@@ -1,5 +1,8 @@
 # Enterprise AI Agent - Production-Ready Multi-Tool Agent System
 
+[![Tests](https://github.com/CrashBytes/enterprise-ai-agent/workflows/Tests/badge.svg)](https://github.com/CrashBytes/enterprise-ai-agent/actions)
+[![codecov](https://codecov.io/gh/CrashBytes/enterprise-ai-agent/branch/main/graph/badge.svg)](https://codecov.io/gh/CrashBytes/enterprise-ai-agent)
+
 A comprehensive, production-ready AI agent implementation using LangChain, OpenAI, and enterprise-grade architecture patterns. This repository demonstrates how to build autonomous agents that can reason, plan, and execute complex multi-step workflows.
 
 ## Overview
