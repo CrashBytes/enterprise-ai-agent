@@ -4,7 +4,7 @@ langchain-openai==0.0.5
 langchain-community==0.0.16
 
 # LLM Providers
-openai==1.10.0
+openai==2.15.0
 
 # Tool Dependencies
 requests==2.31.0
