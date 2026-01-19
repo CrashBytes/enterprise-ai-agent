@@ -1,5 +1,5 @@
 # Core AI Framework
-langchain==0.1.4
+langchain==1.2.6
 langchain-openai==0.0.5
 langchain-community==0.0.16
 
