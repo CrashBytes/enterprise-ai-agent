@@ -44,7 +44,13 @@ jobs:
           pytest test/ -v --cov=. --cov-report=xml --cov-report=term-missing  
         else
           echo "No tests directory found, running pytest discovery"
-          pytest -v --cov=. --cov-report=xml --cov-report=term-missing
+          rc=0
+          pytest -v --cov=. --cov-report=xml --cov-report=term-missing || rc=$?
+          if [ "$rc" -eq 5 ]; then
+            echo "No tests collected (pytest exit 5) — scaffold has no tests yet, treating as success"
+          elif [ "$rc" -ne 0 ]; then
+            exit "$rc"
+          fi
         fi
     
     - name: Upload coverage to Codecov
