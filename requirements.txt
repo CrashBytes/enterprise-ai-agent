@@ -28,7 +28,7 @@ loguru==0.7.3
 prometheus-client==0.25.0
 
 # CLI Interface
-typer==0.26.7
+typer==0.26.8
 rich==15.0.0
 
 # Development Tools
